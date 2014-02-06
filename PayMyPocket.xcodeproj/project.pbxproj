@@ -1,0 +1,475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1AB99C3818A39D760097ACB8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AB99C3718A39D760097ACB8 /* Foundation.framework */; };
+		1AB99C3A18A39D760097ACB8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AB99C3918A39D760097ACB8 /* CoreGraphics.framework */; };
+		1AB99C3C18A39D760097ACB8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AB99C3B18A39D760097ACB8 /* UIKit.framework */; };
+		1AB99C4218A39D760097ACB8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1AB99C4018A39D760097ACB8 /* InfoPlist.strings */; };
+		1AB99C4418A39D760097ACB8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AB99C4318A39D760097ACB8 /* main.m */; };
+		1AB99C4818A39D760097ACB8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AB99C4718A39D760097ACB8 /* AppDelegate.m */; };
+		1AB99C4B18A39D760097ACB8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AB99C4918A39D760097ACB8 /* Main.storyboard */; };
+		1AB99C4E18A39D760097ACB8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AB99C4D18A39D760097ACB8 /* ViewController.m */; };
+		1AB99C5018A39D760097ACB8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AB99C4F18A39D760097ACB8 /* Images.xcassets */; };
+		1AB99C5718A39D760097ACB8 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AB99C5618A39D760097ACB8 /* XCTest.framework */; };
+		1AB99C5818A39D760097ACB8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AB99C3718A39D760097ACB8 /* Foundation.framework */; };
+		1AB99C5918A39D760097ACB8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AB99C3B18A39D760097ACB8 /* UIKit.framework */; };
+		1AB99C6118A39D760097ACB8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1AB99C5F18A39D760097ACB8 /* InfoPlist.strings */; };
+		1AB99C6318A39D760097ACB8 /* PayMyPocketTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AB99C6218A39D760097ACB8 /* PayMyPocketTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1AB99C5A18A39D760097ACB8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1AB99C2C18A39D760097ACB8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1AB99C3318A39D760097ACB8;
+			remoteInfo = PayMyPocket;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1AB99C3418A39D760097ACB8 /* PayMyPocket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PayMyPocket.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AB99C3718A39D760097ACB8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1AB99C3918A39D760097ACB8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1AB99C3B18A39D760097ACB8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1AB99C3F18A39D760097ACB8 /* PayMyPocket-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PayMyPocket-Info.plist"; sourceTree = "<group>"; };
+		1AB99C4118A39D760097ACB8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1AB99C4318A39D760097ACB8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1AB99C4518A39D760097ACB8 /* PayMyPocket-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PayMyPocket-Prefix.pch"; sourceTree = "<group>"; };
+		1AB99C4618A39D760097ACB8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1AB99C4718A39D760097ACB8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1AB99C4A18A39D760097ACB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1AB99C4C18A39D760097ACB8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1AB99C4D18A39D760097ACB8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1AB99C4F18A39D760097ACB8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1AB99C5518A39D760097ACB8 /* PayMyPocketTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PayMyPocketTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AB99C5618A39D760097ACB8 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		1AB99C5E18A39D760097ACB8 /* PayMyPocketTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PayMyPocketTests-Info.plist"; sourceTree = "<group>"; };
+		1AB99C6018A39D760097ACB8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1AB99C6218A39D760097ACB8 /* PayMyPocketTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PayMyPocketTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1AB99C3118A39D760097ACB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AB99C3A18A39D760097ACB8 /* CoreGraphics.framework in Frameworks */,
+				1AB99C3C18A39D760097ACB8 /* UIKit.framework in Frameworks */,
+				1AB99C3818A39D760097ACB8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AB99C5218A39D760097ACB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AB99C5718A39D760097ACB8 /* XCTest.framework in Frameworks */,
+				1AB99C5918A39D760097ACB8 /* UIKit.framework in Frameworks */,
+				1AB99C5818A39D760097ACB8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1AB99C2B18A39D760097ACB8 = {
+			isa = PBXGroup;
+			children = (
+				1AB99C3D18A39D760097ACB8 /* PayMyPocket */,
+				1AB99C5C18A39D760097ACB8 /* PayMyPocketTests */,
+				1AB99C3618A39D760097ACB8 /* Frameworks */,
+				1AB99C3518A39D760097ACB8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1AB99C3518A39D760097ACB8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1AB99C3418A39D760097ACB8 /* PayMyPocket.app */,
+				1AB99C5518A39D760097ACB8 /* PayMyPocketTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1AB99C3618A39D760097ACB8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1AB99C3718A39D760097ACB8 /* Foundation.framework */,
+				1AB99C3918A39D760097ACB8 /* CoreGraphics.framework */,
+				1AB99C3B18A39D760097ACB8 /* UIKit.framework */,
+				1AB99C5618A39D760097ACB8 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1AB99C3D18A39D760097ACB8 /* PayMyPocket */ = {
+			isa = PBXGroup;
+			children = (
+				1AB99C4618A39D760097ACB8 /* AppDelegate.h */,
+				1AB99C4718A39D760097ACB8 /* AppDelegate.m */,
+				1AB99C4918A39D760097ACB8 /* Main.storyboard */,
+				1AB99C4C18A39D760097ACB8 /* ViewController.h */,
+				1AB99C4D18A39D760097ACB8 /* ViewController.m */,
+				1AB99C4F18A39D760097ACB8 /* Images.xcassets */,
+				1AB99C3E18A39D760097ACB8 /* Supporting Files */,
+			);
+			path = PayMyPocket;
+			sourceTree = "<group>";
+		};
+		1AB99C3E18A39D760097ACB8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1AB99C3F18A39D760097ACB8 /* PayMyPocket-Info.plist */,
+				1AB99C4018A39D760097ACB8 /* InfoPlist.strings */,
+				1AB99C4318A39D760097ACB8 /* main.m */,
+				1AB99C4518A39D760097ACB8 /* PayMyPocket-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1AB99C5C18A39D760097ACB8 /* PayMyPocketTests */ = {
+			isa = PBXGroup;
+			children = (
+				1AB99C6218A39D760097ACB8 /* PayMyPocketTests.m */,
+				1AB99C5D18A39D760097ACB8 /* Supporting Files */,
+			);
+			path = PayMyPocketTests;
+			sourceTree = "<group>";
+		};
+		1AB99C5D18A39D760097ACB8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1AB99C5E18A39D760097ACB8 /* PayMyPocketTests-Info.plist */,
+				1AB99C5F18A39D760097ACB8 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1AB99C3318A39D760097ACB8 /* PayMyPocket */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AB99C6618A39D760097ACB8 /* Build configuration list for PBXNativeTarget "PayMyPocket" */;
+			buildPhases = (
+				1AB99C3018A39D760097ACB8 /* Sources */,
+				1AB99C3118A39D760097ACB8 /* Frameworks */,
+				1AB99C3218A39D760097ACB8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PayMyPocket;
+			productName = PayMyPocket;
+			productReference = 1AB99C3418A39D760097ACB8 /* PayMyPocket.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1AB99C5418A39D760097ACB8 /* PayMyPocketTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AB99C6918A39D760097ACB8 /* Build configuration list for PBXNativeTarget "PayMyPocketTests" */;
+			buildPhases = (
+				1AB99C5118A39D760097ACB8 /* Sources */,
+				1AB99C5218A39D760097ACB8 /* Frameworks */,
+				1AB99C5318A39D760097ACB8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1AB99C5B18A39D760097ACB8 /* PBXTargetDependency */,
+			);
+			name = PayMyPocketTests;
+			productName = PayMyPocketTests;
+			productReference = 1AB99C5518A39D760097ACB8 /* PayMyPocketTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1AB99C2C18A39D760097ACB8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Eliran Efron";
+				TargetAttributes = {
+					1AB99C5418A39D760097ACB8 = {
+						TestTargetID = 1AB99C3318A39D760097ACB8;
+					};
+				};
+			};
+			buildConfigurationList = 1AB99C2F18A39D760097ACB8 /* Build configuration list for PBXProject "PayMyPocket" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1AB99C2B18A39D760097ACB8;
+			productRefGroup = 1AB99C3518A39D760097ACB8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1AB99C3318A39D760097ACB8 /* PayMyPocket */,
+				1AB99C5418A39D760097ACB8 /* PayMyPocketTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1AB99C3218A39D760097ACB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AB99C5018A39D760097ACB8 /* Images.xcassets in Resources */,
+				1AB99C4218A39D760097ACB8 /* InfoPlist.strings in Resources */,
+				1AB99C4B18A39D760097ACB8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AB99C5318A39D760097ACB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AB99C6118A39D760097ACB8 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1AB99C3018A39D760097ACB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AB99C4E18A39D760097ACB8 /* ViewController.m in Sources */,
+				1AB99C4818A39D760097ACB8 /* AppDelegate.m in Sources */,
+				1AB99C4418A39D760097ACB8 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AB99C5118A39D760097ACB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AB99C6318A39D760097ACB8 /* PayMyPocketTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1AB99C5B18A39D760097ACB8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1AB99C3318A39D760097ACB8 /* PayMyPocket */;
+			targetProxy = 1AB99C5A18A39D760097ACB8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1AB99C4018A39D760097ACB8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1AB99C4118A39D760097ACB8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1AB99C4918A39D760097ACB8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1AB99C4A18A39D760097ACB8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1AB99C5F18A39D760097ACB8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1AB99C6018A39D760097ACB8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1AB99C6418A39D760097ACB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1AB99C6518A39D760097ACB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1AB99C6718A39D760097ACB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PayMyPocket/PayMyPocket-Prefix.pch";
+				INFOPLIST_FILE = "PayMyPocket/PayMyPocket-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1AB99C6818A39D760097ACB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PayMyPocket/PayMyPocket-Prefix.pch";
+				INFOPLIST_FILE = "PayMyPocket/PayMyPocket-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		1AB99C6A18A39D760097ACB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PayMyPocket.app/PayMyPocket";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PayMyPocket/PayMyPocket-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "PayMyPocketTests/PayMyPocketTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		1AB99C6B18A39D760097ACB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PayMyPocket.app/PayMyPocket";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PayMyPocket/PayMyPocket-Prefix.pch";
+				INFOPLIST_FILE = "PayMyPocketTests/PayMyPocketTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1AB99C2F18A39D760097ACB8 /* Build configuration list for PBXProject "PayMyPocket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AB99C6418A39D760097ACB8 /* Debug */,
+				1AB99C6518A39D760097ACB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1AB99C6618A39D760097ACB8 /* Build configuration list for PBXNativeTarget "PayMyPocket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AB99C6718A39D760097ACB8 /* Debug */,
+				1AB99C6818A39D760097ACB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1AB99C6918A39D760097ACB8 /* Build configuration list for PBXNativeTarget "PayMyPocketTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AB99C6A18A39D760097ACB8 /* Debug */,
+				1AB99C6B18A39D760097ACB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1AB99C2C18A39D760097ACB8 /* Project object */;
+}
